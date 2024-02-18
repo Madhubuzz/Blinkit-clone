@@ -1,0 +1,250 @@
+nav{
+    position: sticky;
+    background-color: whitesmoke;
+    z-index: 2;
+    top: 0px;
+}
+.vertical-line{
+    border-left: 1px solid #f2f2f2;
+    height: 79px;
+}
+.nav-delivery>h5{
+    font-weight: 900;
+    margin-top: 10px;
+}
+.nav-delivery{
+    font-size: 15px;
+}
+#my-nav-search{
+background-color: #f8f8f8;
+border-radius: 10px;
+border: 1px solid #f2f2f2;
+padding-inline: 10px;
+}
+#my-nav-search>input{
+    border: none;
+    width: 40vw;
+    height: 50px;
+    background-color: transparent;
+}
+.my-cart-btn{
+    border-radius: 10px !important;
+    font-weight: 600 !important;
+    background-color: #0c831f !important;
+    color: white !important;
+}
+#categories-1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-inline: 8.5vw;
+}
+.scroll-container{
+    width: 82.5vw;
+    margin: auto;
+}
+.list::-webkit-scrollbar{
+    display: none;
+}
+.list{
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+.list>img{
+    display: inline-block;
+    margin: 10px;
+}
+.category{
+    width: 79vw;
+    margin: auto;
+}
+.my-card{
+    display: inline-block !important;
+    width: 220px;
+    box-sizing: border-box;
+    border-radius: 10px !important;
+    white-space: wrap ;
+    margin-inline: 10px;
+}
+.my-card>img{
+    display: inline-block;
+    margin: auto;
+}
+.my-card>h6{
+    padding-top: 8px;
+}
+.time{
+    background-color: #f2f2f2;
+    font-size: 9px;
+    font-weight: 700;
+    color: rgb(54, 54, 54);
+    width: fit-content;
+    padding: 3px;
+    border-radius: 5px;
+
+}
+.product-weight{
+    font-size: 13px;
+    color: #827579;
+}
+.row-3>p{
+    margin: 0px;
+    font-weight: 500;
+}
+.zig-zag{
+    position: relative;
+    bottom: -13px;
+    font-size: 16px;
+    color: #538cee;
+}
+.my-tag{
+    background-color: #538cee;
+    color: white;
+    width: 40px;
+    top: 0px;
+    position: absolute;
+    text-align: center;
+    left: 20px;
+    font-size: 14px;
+    font-weight: 900;
+    
+}
+footer{
+    width: 78vw;
+    margin: auto;
+}
+#footer-3{
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: justify;
+    color: #827579;
+}
+#footer-2{
+    font-size: 13px;
+    text-align: justify;
+    color: #827579;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+#footer-text{    
+    padding-inline: 10px;
+    flex: 1;
+}
+#footer-text-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+}
+#box{
+    color: #f8f8f8;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #213b50;
+}
+#footer-text-2>h6{
+    font-weight: 700;
+    color: #737373;
+    
+}
+#icons{
+     
+    display: flex;
+    flex: 1;
+    
+}
+.social-icons{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    font-size: 20px;
+    color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 50%;
+}
+.social-icons:hover{
+    color: black;
+    background-color: #f8f8f8;
+    box-shadow: 3px 3px 15px black;
+}
+#footer-1{
+    margin-top: 30px;
+    display: flex;
+}
+#table-1{
+    flex: 2;
+    width: 100%;
+}
+#table-2{
+    flex: 3;
+}
+table{
+    width: 100%;
+}
+td{
+    width: 33%;;
+    color:  #737373;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+}
+td:hover{
+    line-height: 25px;
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 400px){
+    #hero-section{
+        display: none !important;
+    }
+    nav,#footer-1{
+        flex-direction: column !important;
+        align-items: center !important;
+        margin: auto;
+    }
+    #footer-2,#table-1,#table-2,#footer-text-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    td{
+        padding-inline: 10px;
+        text-align: center;
+        font-size: 12px;
+    }
+    #box{
+        margin-top: 10px;
+    }
+    #icons{
+        justify-content: space-between;
+        width: 90vw;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .vertical-line{
+        display: none;
+    }
+    #my-nav-search{
+        width: 90vw;
+    }
+    nav{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        position: static;
+    }
+    
+}
+    
